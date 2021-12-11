@@ -1,9 +1,5 @@
-const data = require('./input')
-
-const remapData = data => ({
-  move: data.split(' ')[0],
-  value: parseInt(data.split(' ')[1], 10)
-})
+const data = require('../common/input')
+const remapData = require('../common/remapData')
 
 const movesReducer = (total, m, index, arr) => {
   if(m.move === 'forward') {
