@@ -1,19 +1,14 @@
-const data = require('../common/input')
-const remapData = require('../common/remapData')
+const fs = require('fs')
 
-const movesReducer = (total, m, index, arr) => {
-  if(m.move === 'forward') {
-    total.horizontalPosition += m.value
-    return total
-  }
-  total.depth += m.move === 'down' ? m.value : -m.value
-  return total
+const remapData = require('../common/remapData')
+const data = fs.readFileSync('../common/input.txt', 'utf-8').split('\n').map(remapData)
+
+const submarine = require('./submarine')()
+
+const movesReducer = (submarine) => (_, heading) => {
+  return submarine[heading.move](heading.value)
 }
 
-const initalPosition = { horizontalPosition: 0, depth: 0 }
+const position = data.reduce(movesReducer(submarine), {})
 
-const position = data.map(remapData).reduce(movesReducer, initalPosition)
-
-const total = position.horizontalPosition * position.depth
-
-console.log(total)
+console.log(position.horizontal * position.depth)
