@@ -14,12 +14,10 @@
   },
   "keywords": [
     "AOC2021",
-    "Advent",
-    "Sonar",
-    "Sweep",
+    "Advent of Code 2021",
+    "Sonar Sweep",
     "Dive",
-    "Binary",
-    "Diagnostic"
+    "Binary Diagnostic"
   ],
   "bugs": {
     "url": "https://github.com/LukeMitchellWood/AOC2021-bookish-pancake/issues"
