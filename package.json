@@ -1,8 +1,28 @@
 {
   "name": "adventofcode2021",
   "version": "1.0.0",
-  "description": "",
-  "main": "",
+  "description": "Advent of Code 2021 entries ",
+  "main": "index.js",
   "author": "Luke Wood",
-  "license": "GPL-3.0"
+  "license": "GPL-3.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LukeMitchellWood/AOC2021-bookish-pancake.git"
+  },
+  "keywords": [
+    "AOC2021",
+    "Advent",
+    "Sonar",
+    "Sweep",
+    "Dive",
+    "Binary",
+    "Diagnostic"
+  ],
+  "bugs": {
+    "url": "https://github.com/LukeMitchellWood/AOC2021-bookish-pancake/issues"
+  },
+  "homepage": "https://github.com/LukeMitchellWood/AOC2021-bookish-pancake#readme"
 }
