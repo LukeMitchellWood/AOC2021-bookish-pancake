@@ -23,4 +23,5 @@ My entries for the 2021 Advent of Code event. I'm trying as best as I can to wri
 
 ## Day 4: [Giant Squid](https://adventofcode.com/2021/day/4)
 [Part 1](https://github.com/LukeMitchellWood/AOC2021-bookish-pancake/blob/main/04-giant-squid/part-1/index.js) Working on it! 🤓
+
 [Part 2](https://github.com/LukeMitchellWood/AOC2021-bookish-pancake/blob/main/04-giant-squid/part-2/index.js) Created 🛠
