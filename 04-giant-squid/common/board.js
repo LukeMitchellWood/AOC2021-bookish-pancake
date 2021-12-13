@@ -3,7 +3,7 @@
  * @param {array} board this is a 5 x 5 array of positive numbers including zero
  * @return {int} the score of the board
  */
- module.exports = function board(board) {
+module.exports = function board(board) {
   const matches = [];
   const flatBoard = board.flat();
   let win = [];
@@ -61,4 +61,4 @@
   return {
     draw,
   };
-}
+};
